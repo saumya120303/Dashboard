@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+  }
+  
+  .container {
+    position: unset;
+    width: 900px;
+    height: 564px;
+    top: 230px;
+    left: 230px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+  }
+  
+  .image-container {
+    width: 450px;
+    height: 564px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+  }
+  
+  .login-container {
+    width: calc(100% - 450px);
+    height: 564px;
+    position:absolute;
+    padding: 40px;
+  }
+  
+  .login-form {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 40px;
+    left: 490px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .login-title {
+    width: fit-content;
+    height: fit-content;
+    font-size: 22px;
+    font-weight: 600;
+    content: normal;
+    height: 33px;
+  }
+  
+  .company-name {
+    width: 261px;
+    height: 24px;
+    font-size: 16px;
+    color: #999999;
+  }
+  
+  .form-space {
+    width: 337px;
+    height: 35px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    gap: 10px;
+  }
+  
+  .form-space input {
+    width: 63%;
+    height: 63%;
+    border: none;
+    outline: none;
+  }
+
+  .forgot-password {
+    display: flex;
+    justify-content: flex-end;
+    font-size: small;
+    width: 360px;
+    height: 44px;
+    text-decoration: underline;
+    gap: 10px;
+    align-items: center;
+    color:silver;
+  }
+  .login{
+    width: 370px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login button {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: #2563EB;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  ::placeholder {
+    color: #999999;
+  }
+
+  .separator-line {
+    width: 370px;
+    height: 1px;
+    border: 1px solid #E5E5E5;
+    margin: 20px 0;
+    line-height: 0.1rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+.separator-line span{
+background: #fff;
+padding: 0 10px;
+
+  }
+  
+  .register-button {
+    width: 370px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .register-button button {
+    width: 100%;
+    height: 100%;
+    background-color: #525252;
+    color: #ffffff;
+    border: 1px solid #525252;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }

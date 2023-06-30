@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .dashboard {
+    position: relative;
+    width: 800px;
+    height: 2307px;
+    
+  }
+  
+  .navbar {
+    width: 1280px;
+    height: 45px;
+    padding: 9px 30px;
+    background: #171717;
+    color: white;
+  }
+  .nav__ele{
+    padding-top: 15px;
+    padding-left: 30px;
+  }
+  .nav__ele span{
+    font-weight: 1000;
+  }
+  .sidebar {
+    position: absolute;
+    width: 260px;
+    height: 2450px;
+    top: 55px;
+    padding: 0;
+    background:  #262626;
+
+  }
+  
+  .add-post-section {
+    position: absolute;
+    width: 1080px;
+    height: 77px;
+    top: 55px;
+    left: 260px;
+    right: 1000px;
+    color: white;
+    background-color: rgb(228, 231, 234);
+  }
+  .a__con{
+    color: #171717;
+    width: 700px;
+    height: 77px;
+    padding-top: 20px;
+   
+  }
+  .a__con span{
+    padding-left: 50px;
+    font-weight: 600;
+  }
+
+  .a_search{
+    padding: 10px 20px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    left:100px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+
+  }
+  .list-section {
+    position: absolute;
+    width: 1120px;
+    height: 790px;
+    top: 162px;
+    left: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .rectangle-box {
+    width: 1120px;
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #333333;
+    color: #FFFFFF;
+  }
+
+  .info_box{
+    width: 220px;
+    height: 91px;
+    gap: 20px;
+    color: rgb(4, 4, 4);
+    border-radius: 10px;
+    background-color: rgb(228, 231, 234);
+
+  }
+
+  .info_box_ts {
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top:10px;
+    padding-left: 40px;
+  }
+
+.list_table{
+width: 900px;
+height: 720px;
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+border-radius: 10px;
+background-color: rgb(228, 231, 234);
+  }
+.list_table span{
+  color: #171717;
+  padding-bottom: 720px;
+  justify-content: flex-start;
+  font-weight: 800;
+}
+
+.alert-box {
+  position: absolute;
+  width: 548px;
+  height: 34px;
+  padding: 15px;
+  top: 240px;
+  left: 20px;
+  border-radius: 5px;
+  border: 1px solid #F87171;
+  background-color: #FEF2F2;
+  display: flex;
+  align-items: center;
+}
+
+.alert-text {
+  color: #7F1D1D;
+  font-weight: bold;
+  padding-left: 20px;
+  justify-content: stretch;
+}
+
+.custom-table {
+  position: absolute;
+  width: 850px;
+  height: fit-content;
+  top: 350px;
+  left: 25px;
+  border-radius: 10px;
+  background: #D4D4D4;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #D4D4D4;
+  border-right: 1px solid #d4d4d4;
+}
+
+.custom-table th {
+  background-color: #F2F2F2;
+  font-weight: bold;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+  background-color: #FFFFFF;}
+
+.custom-table tbody tr:nth-child(even) {
+  background-color: #E5E5E5;
+}
+
+.custom-table tbody tr:nth-child(3n + 1) {
+  background-color: #e4e2e2;
+}
+
+.custom-table tbody tr:nth-child(3n + 2) {
+  background-color: #e4e2e2;
+}
+
+.custom-table tbody tr:nth-child(3n + 3) {
+  background-color: #e4e2e2;
+}
+
+
+.slider {
+  position:inherit;
+  width: 241px;
+  height: 35px;
+  top: 810px;
+  left: 360px;
+  gap: 5px;
+}
+
+.slider-item {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333333;
+  border-radius: 10px;
+  border-color: 1px solid white;
+}
+
+.slider-item:hover {
+  background-color: #1505f5;
+  color: #FFFFFF;
+  border:1px #d4d4d4;
+  border-radius: 10px;
+  border-color: 1px solid white;
+}
+
+
+
+
+
+.new-item
+{
+  width: Fill (200px);
+height: Hug (47px);
+padding: 10px;
+border-radius: 5px;
+gap: 5px;
+font-weight: 500;
+line-height: 27px;
+size: 18px;
+padding-left: 25px;
+
+}
+  .new-item button{
+    width: 200px;
+    height: 50px;
+    top: 50px;
+    left: 100px;
+    border: 5px;
+    border-radius: 10px;
+    font-weight: 2000;
+   
+  }
+.new-item span{
+  font-weight: 700;
+}
+  .dash{
+width: (360px);
+height: (54px);
+padding: 15px 0px 15px 30px;
+border: 1px 0px 0px 0px;
+justify-self: center;
+color: aliceblue;
+font-weight: 1000;
+padding-left: 65px;
+  }
+
+.dash__list{
+  width: (360px);
+height: (50px);
+padding: 10px 20px 10px 10px;
+border: 0px 0px 0px 0px;
+  background: none;
+  color: aliceblue;
+  border: 30px;
+  justify-content: center;
+  padding-left: 40px;
+
+}
+.dash__list span{
+  font-weight: 745;
+  line-height: 24px;
+  size: 16px;
+}
+  /* Additional styling for tables and other elements within the list section can be added here */
+  .form_table{
+    width: 900px;
+    height: 720px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: rgb(228, 231, 234);
+  }
+
+  .form_tablee{
+    width: 500px;
+    height: 450px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: rgb(228, 231, 234);
+  }
+
+  .form_tableee{
+    width: 335px;
+    height: 450px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: rgb(228, 231, 234);
+  }
+  .lang{
+    width: 212px;
+    height: 50px;
+    padding-top: 90px;
+    left:20px;
+    position: absolute;
+  }
+
+  .lang button{
+    top: 60px;
+    right: 30px;
+    background-color:  rgb(211, 169, 92);
+    border-radius: 7px;
+  }
+
+  .form_label{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .form_labell{
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+.form_input{
+  padding-bottom: 20px;
+  position: absolute;
+  top:1050px;
+  left: 30px;
+}
+
+.input-form {
+  width:fill 1060px;
+  height: fixed 165px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  align-content: flex-start;
+}
+
+.input-field{
+  width:fill 1060px;
+  height: fixed 165px;
+  line-height: 24px;
+  size: 16px;
+  align-self: start;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+
+.login{
+  width: 370px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login button {
+  width: 80px;
+  height: 50px;
+  background-color: #2563EB;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;justify-content: center;
+}
+
+
+footer {
+  background: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  width: 900px;
+}
+
+.footer-content {
+  color: #777;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+
+
+
+
